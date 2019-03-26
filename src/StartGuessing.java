@@ -12,10 +12,12 @@ public class StartGuessing {
             Compare.compare(guess);
             ClearTheScreen.clearScreen();
             if (GuessTheMovie.correct > 0) {
-                System.out.println("Got one");
+                System.out.println("There is a letter " + guess + " in the movie name");
+                System.out.println("Used letters: " + GuessTheMovie.previousGuesses);
             } else {
                 ClearTheScreen.clearScreen();
-                System.out.println("Nope");
+                System.out.println("None of the letter " + guess + " are in the movie ");
+                System.out.println("Used letters: " + GuessTheMovie.previousGuesses);
                 GuessTheMovie.score -= 1;
             }
             System.out.println(GuessTheMovie.array1);

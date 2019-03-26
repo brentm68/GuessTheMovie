@@ -18,7 +18,7 @@ public class Compare {
                 GuessTheMovie.incorrect++;
                 count++;
             }
-        }
+        } GuessTheMovie.previousGuesses += guess;
 //        return GuessTheMovie.array1;
     }
 }
