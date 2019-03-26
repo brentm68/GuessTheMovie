@@ -12,6 +12,9 @@ public class GuessTheMovie {
     //main method
     public static void main(String[] args) throws FileNotFoundException {
 
+        //clear the terminal screen
+        ClearTheScreen.clearScreen();
+
         //pick the movie
         nameOfMovie = Files.pickMovie();
 
