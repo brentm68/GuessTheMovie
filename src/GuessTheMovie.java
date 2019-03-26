@@ -9,7 +9,6 @@ public class GuessTheMovie {
     public static boolean Guessed = false;
     public static int score = 10;
     public static char[] array1;
-    public static char answer;
     //main method
     public static void main(String[] args) throws FileNotFoundException {
 

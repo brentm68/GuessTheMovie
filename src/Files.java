@@ -19,7 +19,7 @@ public class Files {
         }
 
         //pick the movie
-        int movie = (int) (Math.random() * 7);
+        int movie = (int) (Math.random() * 22);
         Object movieArray[] = movieList.toArray();
 
         //return movie name
